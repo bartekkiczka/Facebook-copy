@@ -1,0 +1,34 @@
+#wrapper {
+  display: flex;
+}
+
+#logo {
+  margin: 10px 10px 0 0;
+  width: 60px;
+}
+
+#search {
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 230px;
+  background-color: #484b54;
+  color: white;
+  text-align: left;
+  border-radius: 20px;
+  margin: auto 0;
+}
+
+#search input {
+  outline: none;
+  border: none;
+  margin: 12.5px 0 0 5px;
+  background-color: #484b54;
+  color: white;
+}
+
+@media only screen and (max-width: 1024px){
+  #search{
+    display: none;
+  }
+}

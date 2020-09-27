@@ -1,0 +1,35 @@
+.left-panel__wrapper{
+    width: 300px;
+    height: 600px;
+}
+
+.left-panel-elements__wrapper{
+    margin: 20px 0 0 20px;
+}
+
+.left-panel-elements__wrapper span{
+    display: flex;
+    align-items: center;
+    color: white;
+    /* margin: 30px 0 0 0; */
+}
+
+.left-panel-elements__wrapper p{
+    margin: 0 0 0 10px;
+}
+
+.left-panel-element{
+    border-radius: 10px;
+    padding: 15px 0 15px 0;
+}
+
+.left-panel-element:hover{
+    background-color: #595959;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px){
+    .left-panel__wrapper{
+        display: none;
+    }
+}

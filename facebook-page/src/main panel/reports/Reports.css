@@ -1,0 +1,53 @@
+.reports__wrapper {
+  display: flex;
+  margin: 10px 0 0 0;
+}
+
+.report {
+  display: flex;
+  background-color: red;
+  width: 108.3px;
+  height: 170px;
+  border-radius: 20px;
+  background-image: url("../../resources/report-image.jpg");
+  color: white;
+  text-align: center;
+}
+
+.report p {
+  align-self: flex-end;
+  margin: 0 auto;
+}
+
+.report img {
+  position: absolute;
+  margin: 10px 0 0 10px;
+  border-radius: 50%;
+}
+
+.first {
+  margin: 0 5px 0 0;
+}
+
+.last {
+  margin: 0 0 0 5px;
+}
+
+.middle {
+  margin: 0 5px 0 5px;
+}
+
+@media only screen and (max-width: 425px){
+
+  .reports__wrapper div:first-of-type{
+    display: none;
+  }
+
+  .reports__wrapper div:last-of-type{
+    display: none;
+  } 
+
+  .report p{
+    font-size: 17px;
+  }
+}

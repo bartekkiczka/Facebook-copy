@@ -1,0 +1,13 @@
+#header{
+    background-color: #2b2e33;
+    color: white;
+    max-height: 60px;
+    min-height: 60px;
+    border-bottom: 0.1px solid #41444d;
+    padding: 0 25px;
+}
+
+#content{
+    display: flex;
+    justify-content: space-between;
+}

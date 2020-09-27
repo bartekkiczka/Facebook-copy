@@ -1,0 +1,9 @@
+body {
+  background-color: #1e2021;
+}
+
+.board{
+  display: flex;
+  justify-content: space-between;
+}
+
